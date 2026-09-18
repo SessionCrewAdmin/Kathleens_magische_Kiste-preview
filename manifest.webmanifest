@@ -1,0 +1,51 @@
+{
+  "name": "Kathleens magische Tool und Aufgaben Kiste",
+  "short_name": "Kathleens Kiste",
+  "description": "Kathleens Unterrichtszentrale für interaktive Unterrichtstools, Quizze und Aufgaben.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff9fc",
+  "theme_color": "#fff9fc",
+  "icons": [
+    {
+      "src": "assets/icons/app-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "World Quiz",
+      "short_name": "World Quiz",
+      "url": "tools/english-world-quiz/index.html"
+    },
+    {
+      "name": "Kalter Krieg",
+      "short_name": "Kalter Krieg",
+      "url": "tools/kalter-krieg/index.html"
+    },
+    {
+      "name": "Homework Vouchers",
+      "short_name": "Vouchers",
+      "url": "tools/homework-vouchers/"
+    },
+    {
+      "name": "Live Poll",
+      "short_name": "Live Poll",
+      "url": "tools/live-poll/"
+    },
+    {
+      "name": "Klassenlisten",
+      "short_name": "Klassen",
+      "url": "tools/class-lists/"
+    }
+  ]
+}
